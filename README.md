@@ -2,6 +2,9 @@
 
 An embedded safety device that detects falls in real time and automatically alerts an emergency contact — built for people who cannot call for help themselves, including elderly individuals, patients, those with paralysis or limited mobility, and infants.
 
+Demo
+Watch the working demo (component setup + live fall-detection test): https://www.linkedin.com/feed/update/urn:li:ugcPost:7499471307286306817/
+
 ## Overview
 
 The system continuously monitors body orientation using an accelerometer. When a sudden, fall-like change in orientation is detected, it sounds a local alarm and gives a short window to cancel a false alarm via a physical button. If not cancelled, it automatically sends an SOS SMS with a location link and follows up with a phone call to a designated emergency contact.
